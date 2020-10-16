@@ -1,0 +1,1 @@
+AUTOCOMPLETE_URL = 'https://europixhd.io/autotest.php'
