@@ -1,6 +1,6 @@
 class URL:
-    BASE = 'https://europixhd.io/'
-    AUTOCOMPLETE = BASE + 'autotest.php'
+    BASE = 'https://europixhd.pro/'
+    AUTOCOMPLETE = BASE + 'autotesttwn.php'
     MOVIE = '/mov/'
     TV_SHOW = '/tvs/'
     MOVIE_FIXED = '/watch-online-movie/'

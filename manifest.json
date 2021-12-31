@@ -2,20 +2,20 @@
     "name": "Better Europixhd",
     "version": "1.0",
     "manifest_version": 2,
-    "permissions": ["storage", "cookies", "tabs", "*://*.europixhd.io/*", "*://*.hindipix.in/*"],
-    "content_scripts": 
+    "permissions": ["storage", "cookies", "tabs", "*://*.europixhd.pro/*", "*://*.hindipix.in/*"],
+    "content_scripts":
     [
         {
             "js": ["init.js"],
-            "matches": ["*://*.europixhd.io/watch-online-*"]
+            "matches": ["*://*.europixhd.pro/watch-online-*"]
         },
         {
             "js": ["inject.js"],
-            "matches": ["*://*.europixhd.io/home"]
+            "matches": ["*://*.europixhd.pro/home"]
         }
     ],
     "web_accessible_resources": ["block.js", "recents.html"],
-    "background" : 
+    "background" :
     {
         "scripts": ["setup.js"],
         "persistent": false
